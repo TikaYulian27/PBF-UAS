@@ -7,7 +7,7 @@ const ListProduk = (props) => {
                 <img src="http://placeimg.com/80/80/tech" alt="Gambar Tumbnail Artikel"/>
             </div> */}
             <div className="konten-artikel">
-                <div className="judul-produk">{props.judul}</div>
+                <p className="judul-produk">{props.judul}</p>
                 <p><img src={props.image} width="50px"/></p>
                 <p className="price-produk">{props.price}</p>
                 <p className="isi-produk">{props.isi}</p>

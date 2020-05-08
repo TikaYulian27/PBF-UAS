@@ -122,6 +122,7 @@ class admin extends Component{
 
 
                 <h2>Daftar Produk</h2>
+                <br></br>
                 {
                     this.state.listProduk.map(produk => {  // looping dan masukkan untuk setiap data yang ada di listArtikel ke variabel artikel
                         return <ListProduk key={produk.uid} image={produk.image} price={produk.price} judul={produk.title} isi={produk.body} 
