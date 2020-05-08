@@ -33,6 +33,10 @@ p2 {
     font-size: 18px;
   }
 
+label {
+  color: white;
+}
+
 ul.header li {
   display: inline;
   list-style-type: none;
