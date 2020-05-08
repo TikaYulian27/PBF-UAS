@@ -6,6 +6,7 @@ import { Route, NavLink, HashRouter } from "react-router-dom";
 import Home from "./Home";
 import Product from "./Product";
 import Contact from "./Contact";
+import Admin from "./Admin";
  
 class Main extends Component {
   render() {
@@ -17,11 +18,13 @@ class Main extends Component {
             <li><NavLink to="/">Home</NavLink></li>
             <li><NavLink to="/Product">Product</NavLink></li>
             <li><NavLink to="/contact">Contact</NavLink></li>
+            <li><NavLink to="/admin">Admin</NavLink></li>
           </ul>
           <div className="content">
             <Route exact path="/" component={Home}/>
             <Route path="/Product" component={Product}/>
             <Route path="/contact" component={Contact}/>
+            <Route path="/admin" component={Admin}/>
           </div>
         </div>
       </HashRouter>
