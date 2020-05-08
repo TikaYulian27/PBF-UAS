@@ -1,0 +1,87 @@
+/* Step 7 */
+
+style.css
+.content li {
+  margin-bottom: 10px;
+}
+
+body {
+  background: black;
+  background-size: 2000px;
+  padding: 30px;
+  margin: 0;
+}
+.title {
+  color: white;
+  text-align: center;
+}
+h1 {
+  font-family: 'Arial';
+  text-align: center;
+  
+}
+
+h2, p, ul, li {
+    font-family: 'Arial';
+    text-align: center;
+    font-size: 18px;
+  }
+
+p2 {
+    font-family: 'Arial';
+    text-align: left;
+    font-size: 18px;
+  }
+
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+
+ul.header {
+  background-color: transparent;
+  padding: 0;
+  
+}
+ul.header li a {
+  color: #FFF;
+  font-weight: 250;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+
+.content {
+  outline: 4px solid #ffffff;
+  outline-offset: 0px;
+  padding: 30px;
+}
+
+.content h2 {
+  color: #FFF;
+  padding: 0;
+  margin: 0;
+}
+
+.content p {
+    color: #FFF;
+    padding: 0;
+    margin: 30;
+    letter-spacing: 1px;
+    line-height: 35px;
+}
+
+.content p2 {
+  color: #FFF;
+  padding: 0;
+  margin: 30;
+  letter-spacing: 1px;
+  line-height: 35px;
+}
+
+/* .content h4 {
+  color: #FFF;
+  padding: 0;
+  margin: 0;
+} */
