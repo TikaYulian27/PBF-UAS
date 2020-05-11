@@ -1,12 +1,12 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyBQn3k88v5Mxg7SWoaubVL0lEOa0QsI8cM",
-    authDomain: "uaspbfproject.firebaseapp.com",
-    databaseURL: "https://uaspbfproject.firebaseio.com",
-    projectId: "uaspbfproject",
-    storageBucket: "uaspbfproject.appspot.com",
-    messagingSenderId: "470759387100",
-    appId: "1:470759387100:web:ea398ee3abef1bd2f6e919",
-    measurementId: "G-FZ2HNHF42Y"
+  apiKey: "AIzaSyDWAixmfEwqmmceH84IiDCvS6N-P8P7D0M",
+  authDomain: "uaspbf2020.firebaseapp.com",
+  databaseURL: "https://uaspbf2020.firebaseio.com",
+  projectId: "uaspbf2020",
+  storageBucket: "uaspbf2020.appspot.com",
+  messagingSenderId: "336645008661",
+  appId: "1:336645008661:web:e4ae018ec03a9a5575cd1c",
+  measurementId: "G-6YD1H1K34N"
   };
   
   export default firebaseConfig;
