@@ -40,6 +40,7 @@ class Product extends Component {
         //   Bukan hanya sekedar kopi, kopi disini dibuat dengan sepenuh hati.
         //   </p>
 
+        <div class="ml-5 ml-lg-2">
                 <div class="card" style={{ width: '23.2rem' }}>
                     <img src={listProduk.image} class="card-img-top" alt="Card image cap"></img>
                     
@@ -49,7 +50,7 @@ class Product extends Component {
 
                     <div class="card-body card-body-cascade">
                     
-                        <h5 class="pink-text pb-2 pt-1"><i class="fas fa-coffee"></i>Price {listProduk.price}</h5>
+                        <h5 class="pink-text pb-2 pt-1"><i class="fas fa-coffee"></i> Price {listProduk.price}</h5>
                         <h4 class="font-weight-bold card-title">{listProduk.title}</h4>
                         <p class="card-text">{listProduk.body}</p>
                         <p>{listProduk.price}</p>
@@ -57,6 +58,7 @@ class Product extends Component {
                         <a class ="btn btn-unique" >Order now</a></Link></center>
 
                     </div>
+                </div>
                 </div>
             )
         })

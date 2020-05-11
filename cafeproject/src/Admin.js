@@ -91,7 +91,7 @@ class admin extends Component{
             <div className="post-artikel">
                 <div className="form pb-2 border-bottom">
                     <div className="form-group row">
-                        <label htmlFor="image" className="col-sm-2 col-form-label">Image</label>
+                        <label htmlFor="image" className="col-sm-2 col-form-label">Picture</label>
                         <div className="col-sm-10">
                             <input type="text" className="form-control" id="image" name="image" ref="gambarProduk" 
                             onChange={this.handleTambahProduk}/>
@@ -105,37 +105,27 @@ class admin extends Component{
                         </div>
                     </div>
                     <div className="form-group row">
-                        <label htmlFor="title" className="col-sm-2 col-form-label">Nama Produk</label>
+                        <label htmlFor="title" className="col-sm-2 col-form-label">Product</label>
                         <div className="col-sm-10">
                             <input type="text" className="form-control" id="title" name="title" ref="judulProduk" 
                             onChange={this.handleTambahProduk}/>
                         </div>
                     </div>
                     <div className="form-group row">
-                        <label htmlFor="body" className="col-sm-2 col-form-label">Deskripsi Produk</label>
+                        <label htmlFor="body" className="col-sm-2 col-form-label">Description of Product</label>
                         <div className="col-sm-10">
                             <textarea className="form-control" id="body" name="body" rows="3" ref="isiProduk" 
                             onChange={this.handleTambahProduk}></textarea>
                         </div>
                     </div>
                     <input type="hidden" name="uid" ref="uid"/>
-                    <button type="submit" className="btn btn-primary" onClick={this.handleTombolSimpan}>Simpan</button>
+                    <a  type="submit" class ="btn btn-green" onClick={this.handleTombolSimpan}>Save</a>
                 </div>
 
                 <br></br>
-                <h2>Daftar Produk</h2>
+                <h2>List Product</h2>
                 <br></br>
-                <table class="table table-striped">
-                <thead>
-                    <tr>
-                        <th>Nama Produk</th>
-                        <th>Harga</th>
-                        <th>Deskripsi Produk</th>
-                        <th>Gambar Produk</th>
-                        <th>Aksi</th>
-                    </tr>
-                </thead>
-                </table>
+                
                 {
                     this.state.listProduk.map(produk => {  // looping dan masukkan untuk setiap data yang ada di listArtikel ke variabel artikel
                         return <ListProduk key={produk.uid} image={produk.image} price={produk.price} judul={produk.title} isi={produk.body} 
