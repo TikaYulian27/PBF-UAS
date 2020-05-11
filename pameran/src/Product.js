@@ -28,7 +28,7 @@ class Product extends Component {
     <h4 class="font-weight-bold card-title">Kopi Lemon</h4>
     <p class="card-text">Salah satu kopi khas di cafe ini. Kopi murni yang tersaring berkali-kali.
     tanpa gula, sehingga aman bagi penyandang diabetes dengan sedikit aroma lemon.</p>
-    <Link to="/Contact" class="black-text d-flex justify-content-left">
+    <Link to="/DetailProduk" class="black-text d-flex justify-content-left">
     <a class="btn btn-unique">Buy it</a>
    </Link>
   </div>
@@ -45,7 +45,7 @@ class Product extends Component {
     <h4 class="font-weight-bold card-title">Coffe V60</h4>
     <p class="card-text">Jangan mengaku pecinta kopi jika belum mencoba menu yang satu ini.
     Pahit Kopi V60 mampu menggugah semangat bahkan di tegukan pertama.</p>
-    <Link to="/Contact" class="black-text d-flex justify-content-left">
+    <Link to="/DetailProduk" class="black-text d-flex justify-content-left">
     <a class="btn btn-unique">Buy it</a>
     </Link>
   </div>
@@ -62,7 +62,7 @@ class Product extends Component {
     <h4 class="font-weight-bold card-title">Coffe Latte</h4>
     <p class="card-text">Caffe Latte adalah kopi kesukaan sejuta umat. Anda tidak hanya menikmati kopinya
     tetapi lukisan karya barista dijamin membuat Anda baper.</p>
-    <Link to="/Contact" class="black-text d-flex justify-content-left">
+    <Link to="/DetailProduk" class="black-text d-flex justify-content-left">
     <a class="btn btn-unique">Buy it</a>
     </Link>
   </div>

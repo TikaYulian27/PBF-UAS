@@ -7,7 +7,8 @@ import Home from "./Home";
 import Product from "./Product";
 import Contact from "./Contact";
 import Admin from "./Admin";
- 
+import DetailProduk from "./DetailProduk";
+
 class Main extends Component {
   render() {
     return (
@@ -25,6 +26,7 @@ class Main extends Component {
             <Route path="/Product" component={Product}/>
             <Route path="/contact" component={Contact}/>
             <Route path="/admin" component={Admin}/>
+            <Route path="/DetailProduk" component={DetailProduk} />
           </div>
         </div>
       </HashRouter>
