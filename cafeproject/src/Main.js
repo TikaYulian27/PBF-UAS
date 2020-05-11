@@ -7,26 +7,26 @@ import Home from "./Home";
 import Product from "./Product";
 import Contact from "./Contact";
 import Admin from "./Admin";
-import DetailProduk from "./DetailProduk";
+import Transaction from "./Transaction";
 
 class Main extends Component {
   render() {
     return (
       <HashRouter>
         <div>
-          <h1 className="title">Online Art Exhibition</h1>
+          <h1 className="title">Délicioso Café</h1>
           <ul className="header">
             <li><NavLink to="/">Home</NavLink></li>
-            <li><NavLink to="/Product">Creation</NavLink></li>
+            <li><NavLink to="/Product">Product</NavLink></li>
             <li><NavLink to="/contact">Contact</NavLink></li>
-            <li><NavLink to="/admin">Admin</NavLink></li>
+            {/* <li><NavLink to="/admin">Admin</NavLink></li> */}
           </ul>
           <div className="content">
             <Route exact path="/" component={Home}/>
             <Route path="/Product" component={Product}/>
             <Route path="/contact" component={Contact}/>
             <Route path="/admin" component={Admin}/>
-            <Route path="/DetailProduk" component={DetailProduk} />
+            <Route path="/Transaction" component={Transaction} />
           </div>
         </div>
       </HashRouter>

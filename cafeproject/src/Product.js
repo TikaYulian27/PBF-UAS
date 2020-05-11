@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import firebase from "firebase";
 import firebaseConfig from "./Config";
 import { Link } from 'react-router-dom';
-import DetailProduk from "./DetailProduk";
+import Transaction from "./Transaction";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
  
@@ -42,12 +42,20 @@ class Product extends Component {
 
                 <div class="card" style={{ width: '23.2rem' }}>
                     <img src={listProduk.image} class="card-img-top" alt="Card image cap"></img>
-                    <div class="card-body">
-                        <center><h5 class="card-title" style={{ fontFamily: 'arial' }}>{listProduk.title}</h5></center>
+                    
+                    <a>
+                        <div class="mask rgba-white-slight"></div>
+                    </a>
+
+                    <div class="card-body card-body-cascade">
+                    
+                        <h5 class="pink-text pb-2 pt-1"><i class="fas fa-coffee"></i>Price {listProduk.price}</h5>
+                        <h4 class="font-weight-bold card-title">{listProduk.title}</h4>
                         <p class="card-text">{listProduk.body}</p>
                         <p>{listProduk.price}</p>
-                        <center><Link to="/DetailProduk">
-                        <a className ="btn btn-black" >Detail Product</a></Link></center>
+                        <center><Link to="/Transaction">
+                        <a class ="btn btn-unique" >Order now</a></Link></center>
+
                     </div>
                 </div>
             )

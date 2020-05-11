@@ -6,7 +6,7 @@ style.css
 }
 
 body {
-  background: black;
+  background-image: url(2333.png);
   background-size: 2000px;
   padding: 30px;
   margin: 0;
@@ -33,8 +33,12 @@ p2 {
     font-size: 18px;
   }
 
-label {
-  color: white;
+th, label, td{
+  color: #FFF;
+}
+
+th {
+  text-align: left;
 }
 
 ul.header li {

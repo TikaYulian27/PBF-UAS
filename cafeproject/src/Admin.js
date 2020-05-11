@@ -62,7 +62,7 @@ class admin extends Component{
         let body = this.refs.isiProduk.value;
         let uid = this.refs.uid.value;
 
-        if (uid && image && price && title && body){                  // Cek apakah semuad data memiliki nilai (tidak null)
+        if (uid && image && price && title && body){                  // Cek apakah semua data memiliki nilai (tidak null)
             const {listProduk} = this.state;
             const indeksProduk = listProduk.findIndex(data => {
                 return data.uid === uid;
@@ -122,8 +122,9 @@ class admin extends Component{
                     <button type="submit" className="btn btn-primary" onClick={this.handleTombolSimpan}>Simpan</button>
                 </div>
 
-
+                <br></br>
                 <h2>Daftar Produk</h2>
+                <br></br>
                 <table class="table table-striped">
                 <thead>
                     <tr>

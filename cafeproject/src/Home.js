@@ -32,11 +32,17 @@ class Home extends Component {
         <br></br>
         <br></br>
 
-<div class="card-deck">
+  <div class="card-deck">
     <Link to="/Product" class="black-text d-flex justify-content-left">
       <a class="btn btn-brown"><i class="fas fa-clone left"></i>Order here</a>
    </Link>
   </div>
+  <div class="card-deck">
+    <Link to="/Admin" class="black-text d-flex justify-content-left">
+      <a class="btn btn-brown"><i class="fas fa-clone left"></i>Login as Admin</a>
+   </Link>
+  </div>
+
   </div>
   );
 
